@@ -7,12 +7,12 @@ using UnityEngine.Purchasing;
 
 public class IAPKey
 {
-    public const string PACK1 = "candy_sort.game.pack_in_app.i1";
-    public const string PACK2 = "candy_sort.game.pack_in_app.i2";
-    public const string PACK3 = "candy_sort.game.pack_in_app.i3";
-    public const string PACK4 = "candy_sort.game.pack_in_app.i4";
-    public const string PACK5 = "candy_sort.game.pack_in_app.i5";
-    public const string PACK6 = "candy_sort.game.pack_in_app.i6";
+    public const string PACK1 = "color.stack.game.pack1";
+    public const string PACK2 = "color.stack.game.pack2";
+    public const string PACK3 = "color.stack.game.pack3";
+    public const string PACK4 = "color.stack.game.pack4";
+    public const string PACK5 = "color.stack.game.pack5";
+    public const string PACK6 = "color.stack.game.pack6";
 }
 
 public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
