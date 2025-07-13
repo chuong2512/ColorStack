@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using ChuongCustom;
 using UnityEngine;
 
 public class PurchasingManager : MonoBehaviour
@@ -11,28 +12,28 @@ public class PurchasingManager : MonoBehaviour
 			case 1:
 				IAPManager.OnPurchaseSuccess=() => { GameDataManager.Instance.playerData.AddDiamond(50); };
 
-				IAPManager.Instance.BuyProductID(IAPKey.PACK1);
+				IAPManager.Instance.BuyProductID(IAPKey.C_PACK1);
 				break;
 			case 2:
 				IAPManager.OnPurchaseSuccess=() => { GameDataManager.Instance.playerData.AddDiamond(100); };
 
-				IAPManager.Instance.BuyProductID(IAPKey.PACK2);
+				IAPManager.Instance.BuyProductID(IAPKey.C_PACK2);
 				break;
 			case 3:
 				IAPManager.OnPurchaseSuccess=() => { GameDataManager.Instance.playerData.AddDiamond(300); };
-				IAPManager.Instance.BuyProductID(IAPKey.PACK3);
+				IAPManager.Instance.BuyProductID(IAPKey.C_PACK3);
 				break;
 			case 4:
 				IAPManager.OnPurchaseSuccess=() => { GameDataManager.Instance.playerData.AddDiamond(500); };
-				IAPManager.Instance.BuyProductID(IAPKey.PACK4);
+				IAPManager.Instance.BuyProductID(IAPKey.C_PACK4);
 				break;
 			case 5:
 				IAPManager.OnPurchaseSuccess=() => { GameDataManager.Instance.playerData.AddDiamond(1000); };
-				IAPManager.Instance.BuyProductID(IAPKey.PACK5);
+				IAPManager.Instance.BuyProductID(IAPKey.C_PACK5);
 				break;
 			case 6:
 				IAPManager.OnPurchaseSuccess=() => { GameDataManager.Instance.playerData.AddDiamond(2000); };
-				IAPManager.Instance.BuyProductID(IAPKey.PACK6);
+				IAPManager.Instance.BuyProductID(IAPKey.C_PACK6);
 				break;
 		}
 	}
